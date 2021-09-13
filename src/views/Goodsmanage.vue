@@ -3,8 +3,8 @@
  * @create: 2021-07-07 10:45 AM
  * @license: MIT
  * @lastAuthor: CQBCode
- * @lastEditTime: 2021-08-17 09:11 AM
- * @desc: 商品管理页（增、删、修改、查询）
+ * @lastEditTime: 2021-09-13 16:50 PM
+ * @desc: 商品管理页（增、删、修改、查询）  
 -->
 <template>
   <div class="goodsman_wrap">
