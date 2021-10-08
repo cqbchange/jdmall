@@ -3,7 +3,7 @@
  * @create: 2021-07-07 10:55 AM
  * @license: MIT
  * @lastAuthor: CQBCode
- * @lastEditTime: 2021-07-21 09:11 AM
+ * @lastEditTime: 2021-10-08 15:36 PM
  * @desc: 商品上架
 -->
 <template>
@@ -276,7 +276,6 @@ export default {
             `<img src="http://api_devs.wanxikeji.cn/${res.data.data}" class="images" />`
           );
           than.editorhtml = than.editor.$txt.html();
-          console.log(than.editorhtml);
         });
     },
 
@@ -286,11 +285,11 @@ export default {
         specList: [],
         skuList: [],
       };
-      console.log(obj);
+
     },
     skudata2() {
       let objspe = {};
-      console.log(objspe);
+
       this.spushow = false;
       let arr = [];
       for (let j = 0; j < this.spuitems.length; j++) {
