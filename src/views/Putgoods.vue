@@ -3,7 +3,7 @@
  * @create: 2021-07-07 10:55 AM
  * @license: MIT
  * @lastAuthor: CQBCode
- * @lastEditTime: 2021-10-08 15:36 PM
+ * @lastEditTime: 2021-10-08 16:11 PM
  * @desc: 商品上架
 -->
 <template>
@@ -275,7 +275,7 @@ export default {
           this.editor.$txt.append(
             `<img src="http://api_devs.wanxikeji.cn/${res.data.data}" class="images" />`
           );
-          than.editorhtml = than.editor.$txt.html();
+          than.editorhtml = than.editor.$txt.html()//这是富文本;
         });
     },
 
