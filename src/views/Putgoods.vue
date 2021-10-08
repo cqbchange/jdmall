@@ -3,7 +3,7 @@
  * @create: 2021-07-07 10:55 AM
  * @license: MIT
  * @lastAuthor: CQBCode
- * @lastEditTime: 2021-10-08 16:22 PM
+ * @lastEditTime: 2021-10-08 16:29 PM
  * @desc: 商品上架
 -->
 <template>
@@ -260,7 +260,7 @@ export default {
     ];
   },
   methods: {
-    //测试2============================
+    //测试2分支newcqb============================
     ce(){
      let arr=[]
      for(let i=0;i<12;i++){
