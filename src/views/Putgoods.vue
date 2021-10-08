@@ -3,7 +3,7 @@
  * @create: 2021-07-07 10:55 AM
  * @license: MIT
  * @lastAuthor: CQBCode
- * @lastEditTime: 2021-10-08 16:11 PM
+ * @lastEditTime: 2021-10-08 16:22 PM
  * @desc: 商品上架
 -->
 <template>
@@ -260,6 +260,14 @@ export default {
     ];
   },
   methods: {
+    //测试2============================
+    ce(){
+     let arr=[]
+     for(let i=0;i<12;i++){
+       arr.push(i)
+     }
+    },
+    //====================================
     change(e) {
       let file = e.target.files[0];
       let formData = new FormData();
